@@ -38,3 +38,7 @@ jobs:
                     
 - name: HCL AppScan CodeSweep
   uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v1
+  
+  - name: DefenseCode ThunderScan Action
+  uses: defensecode/thunderscan-action@v1.0
+
