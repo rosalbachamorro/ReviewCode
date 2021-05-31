@@ -35,3 +35,6 @@ jobs:
                 uses: github/codeql-action/upload-sarif@v1
                 with:
                     sarif_file: codescan.sarif
+                    
+- name: HCL AppScan CodeSweep
+  uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v1
